@@ -2,21 +2,31 @@
 ##### Starter Template for Azure Serverless Durable Functions
 *Author: <a href="https://jonahandersson.tech/" target="_blank">Jonah Andersson</a>*
 
-#### DESCRIPTION:
+#### LAB DESCRIPTION:
 
+This is a starter template for Serverless course at work but available to public who wants to try it out.
+A hands-on lab created with Azure Durable Functions with [Function Chaining](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-sequence?tabs=csharp) application pattern. 
 
-Starter template for Forefront's Serverless course. A hands-on lab created with Azure Durable Functions with Function Chaining application patter.
-Serverless workflow with integration to other APIs such as Twilio API and Sendgrid and Azure services - Azure Storage, ServiceBus etc. 
+This template is prepared as starter template that allows you to develop Azure Functions (Durable Functions) serverless workflow with integration to other APIs such as Twilio API and Sendgrid API and Azure services - Azure Storage, ServiceBus etc. 
 
 #### OVERVIEW OF WORKFLOW 
 ![Jonah Andersson Azure Durable Functions - Function Chaining Example](https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/AzDurableFunctionChaining.jpg)
- *Jonah Andersson Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twilio API, Sendgrid API and Azure BLOB Storage*
+ *Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twilio API, Sendgrid API and Azure BLOB Storage*
+               
+               
+#### PREREQUISITES AND LAB ENVIRONMENT SETUP 
 
-#### PREREQUISITES AND INSTRUCTIONS
+* Basics concepts of Azure Serverless Computing and Azure Functions <br> 
+ (*If you are a student of Forefront's Serverless course, great. Otherwise, check recommended Learning below*)
+* Microsoft Azure account - Private or Organization subscription account <br> 
+ (*If you don't have any Azure Account, sign up https://azure.microsoft.com/en-us/free/*)
+* Latest version of [Visual Studio](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
+* Azure Storage Explorer (https://azure.microsoft.com/en-us/features/storage-explorer/)
+* Programming Language C# .NET (You can code in other supported languages as well - see supported languages) 
+* Install latest .NET Core 3.1 (LTS) https://dotnet.microsoft.com/download 
+* Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v3%2Cwindows%2Ccsharp%2Cportal%2Cbash%2Ckeda)
+* 
 
-This is a custom and mini hands-on lab created specially for members or students of Forefront's internal Serverless-kompetensspår.
-Instructions provided in given repo during the lab session.                
-                 
 
 ####  RECOMMENDED LEARNING AND HANDS-ON RESOURCES 
  
@@ -24,4 +34,7 @@ Instructions provided in given repo during the lab session.
 * [**Microsoft Learn**](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-create-first-csharp?pivots=code-editor-vscode?WT.mc_id=AZ-MVP-5004251)  
 * [**Azure Functions University on YouTube  by Marc Duiker**](https://www.youtube.com/channel/UCmoWqg6T-c8zEGm4sZdnwbA)
 * [**My article about Azure Durable Functions at DEV Community Blog**](https://dev.to/jonahandersson/azure-durable-functions-developing-serverless-stateful-workflow-4787)
+* [**Serverless .NET Development with Azure Durable Functions by Jonah Andersson at Philippine .NET User Group (PHINUG)**](https://www.youtube.com/watch?v=zByq3wB7fIQ&t=31s)
 * [**Azure Durable Functions Fundamentals at Azure User Group Sundsvall by Jonah Andersson**](https://www.youtube.com/watch?v=fDej9n-kzNM)
+
+  
