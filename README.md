@@ -1,12 +1,17 @@
-# Forefronts Serverless Lab Template
+# Forefronts Serverless Functions in Azure (Lab Template)
 ##### Starter Template for Azure Serverless Durable Functions
-*Author: Jonah Andersson*
+*Author: <a href="https://jonahandersson.tech/" target="_blank">Jonah Andersson</a>*
 
 #### DESCRIPTION:
 
- Starter template for Forefront's Serverless course. A hands-on lab created with Azure Durable Functions with Function Chaining application patter.
+Starter template for Forefront's Serverless course. A hands-on lab created with Azure Durable Functions with Function Chaining application patter.
 Serverless workflow with integration to other APIs such as Twilio API and Sendgrid and Azure services - Azure Storage, ServiceBus etc. 
-                 
+
+
+#### PREREQUISITES AND INSTRUCTIONS
+
+This is a custom and mini hands-on lab created specially for members or students of Forefront's internal Serverless-kompetensspår.
+Instructions provided in given repo during the lab session.                
                  
 
 ####  RECOMMENDED LEARNING AND HANDS-ON RESOURCES 
