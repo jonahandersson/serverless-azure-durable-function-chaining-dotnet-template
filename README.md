@@ -4,9 +4,13 @@
 
 #### DESCRIPTION:
 
+
 Starter template for Forefront's Serverless course. A hands-on lab created with Azure Durable Functions with Function Chaining application patter.
 Serverless workflow with integration to other APIs such as Twilio API and Sendgrid and Azure services - Azure Storage, ServiceBus etc. 
 
+#### OVERVIEW OF WORKFLOW 
+![Jonah Andersson Azure Durable Functions - Function Chaining Example](https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/AzDurableFunctionChaining.jpg)
+ *Jonah Andersson Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twilio API, Sendgrid API and Azure BLOB Storage*
 
 #### PREREQUISITES AND INSTRUCTIONS
 
