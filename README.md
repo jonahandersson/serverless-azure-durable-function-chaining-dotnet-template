@@ -25,8 +25,14 @@ This template is prepared as starter template that allows you to develop Azure F
 * Programming Language C# .NET (You can code in other supported languages as well - see supported languages) 
 * Install latest .NET Core 3.1 (LTS) https://dotnet.microsoft.com/download 
 * Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v3%2Cwindows%2Ccsharp%2Cportal%2Cbash%2Ckeda)
-* 
 
+
+### REQUIRED AZURE SERVICES AND API INTEGRATIONS
+
+* Azure Storage Account for Function App and a BLOB container to upload image files
+* Azure Service Bus Namespace with a Queue 
+* Twilio API Account -  API Keys and Secret are used to code the logic to send SMS and make call from the function app  (Instructions for TwilioAPI) 
+* SendGrid API Account -  API Keys and Secret are used to code logic in sending email (Instructions for SendGrid) 
 
 ####  RECOMMENDED LEARNING AND HANDS-ON RESOURCES 
  
@@ -36,5 +42,6 @@ This template is prepared as starter template that allows you to develop Azure F
 * [**My article about Azure Durable Functions at DEV Community Blog**](https://dev.to/jonahandersson/azure-durable-functions-developing-serverless-stateful-workflow-4787)
 * [**Serverless .NET Development with Azure Durable Functions by Jonah Andersson at Philippine .NET User Group (PHINUG)**](https://www.youtube.com/watch?v=zByq3wB7fIQ&t=31s)
 * [**Azure Durable Functions Fundamentals at Azure User Group Sundsvall by Jonah Andersson**](https://www.youtube.com/watch?v=fDej9n-kzNM)
+* [Azure Storage Account] (https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
 
   
