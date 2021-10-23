@@ -12,7 +12,14 @@ This template is prepared as starter template that allows you to develop Azure F
 #### OVERVIEW OF WORKFLOW 
 ![Jonah Andersson Azure Durable Functions - Function Chaining Example](https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/AzDurableFunctionChaining.jpg)
  *Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twilio API, Sendgrid API and Azure BLOB Storage*
-               
+
+### EXPECTED RESULTS 
+
+- Orchestration get trigged by an image or BLOB uploaded to the Azure Storage
+- Chain 1 - Sends queue message to Azure Service Bus
+- Chain 2 - Send SMS or make call using Twilio API
+- Chain 3 - Send email to configured email address using SendGrid API 
+- Chain 4 - Lab Exercise to send to Cosmos DB etc. 
                
 #### PREREQUISITES AND LAB ENVIRONMENT SETUP 
 
