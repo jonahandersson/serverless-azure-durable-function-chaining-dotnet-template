@@ -10,7 +10,8 @@ A hands-on lab created with Azure Durable Functions with [Function Chaining](htt
 This template is prepared as starter template that allows you to develop Azure Functions (Durable Functions) serverless workflow with integration to other APIs such as Twilio API and Sendgrid API and Azure services - Azure Storage, ServiceBus etc. 
 
 #### OVERVIEW OF WORKFLOW 
-![Jonah Andersson Azure Durable Functions - Function Chaining Example](https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/AzDurableFunctionChaining.jpg)
+
+<img src="https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/AzDurableFunctionChaining.jpg" width="600">
  *Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twilio API, Sendgrid API and Azure BLOB Storage*
 
 ### EXPECTED RESULTS 
@@ -40,6 +41,15 @@ This template is prepared as starter template that allows you to develop Azure F
 * Azure Service Bus Namespace with a Queue 
 * Twilio API Account -  API Keys and Secret are used to code the logic to send SMS and make call from the function app  (Instructions for TwilioAPI) 
 * SendGrid API Account -  API Keys and Secret are used to code logic in sending email (Instructions for SendGrid) 
+
+
+### WHEN DEBUGGING AND DEVELOPING LOCALLY
+
+When developing Azure Functions locally using this project. You should see similar like this when it is finished.
+It logs what is happening with your orchestration. You may also check on 
+
+<img src="https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/ServerlessLab_RunningFunctions%20Locally.PNG" width="600">
+
 
 ####  RECOMMENDED LEARNING AND HANDS-ON RESOURCES 
  
