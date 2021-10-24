@@ -1,4 +1,4 @@
-# Forefronts Serverless Functions in Azure (Lab Template)
+# Durable Serverless Functions in Azure (Lab Template)
 ##### Starter Template for Azure Serverless Durable Functions
 *Author: <a href="https://jonahandersson.tech/" target="_blank">Jonah Andersson</a>*
 
