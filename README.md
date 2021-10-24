@@ -20,12 +20,12 @@ This template is prepared as starter template that allows you to develop Azure F
 - Chain 1 - Sends queue message to Azure Service Bus
 - Chain 2 - Send SMS or make call using Twilio API
 - Chain 3 - Send email to configured email address using SendGrid API 
-- Chain 4 - Lab Exercise to send to Cosmos DB etc. 
+- Chain 4 - Lab Exercise to send to Azure Cosmos DB etc. (Guide: <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-storage-blob-triggered-function" href="_blank">How to create Azure Cosmos DB Trigger</a>)
                
 #### PREREQUISITES AND LAB ENVIRONMENT SETUP 
 
-* Basics concepts of Azure Serverless Computing and Azure Functions <br> 
- (*If you are a student of Forefront's Serverless course, great. Otherwise, check recommended Learning below*)
+* Basics concepts of <a href="https://azure.microsoft.com/en-us/overview/serverless-computing/" target="_blank">Azure Serverless Computing</a>, <a href="https://azure.microsoft.com/en-us/services/functions/" target="_blank"> Azure Functions</a> and <a href="https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=csharp" target="_blank">Durable Functions</a>  <br> 
+ (*If you are a student of Forefront's Serverless course, great. Otherwise, check *Recommended Learning*  below*)
 * Microsoft Azure account - Private or Organization subscription account <br> 
  (*If you don't have any Azure Account, sign up https://azure.microsoft.com/en-us/free/*)
 * Latest version of [Visual Studio](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
@@ -34,13 +34,19 @@ This template is prepared as starter template that allows you to develop Azure F
 * Install latest .NET Core 3.1 (LTS) https://dotnet.microsoft.com/download 
 * Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v3%2Cwindows%2Ccsharp%2Cportal%2Cbash%2Ckeda)
 
-
 ### REQUIRED AZURE SERVICES AND API INTEGRATIONS
 
-* Azure Storage Account for Function App and a BLOB container to upload image files
-* Azure Service Bus Namespace with a Queue 
-* Twilio API Account -  API Keys and Secret are used to code the logic to send SMS and make call from the function app  (Instructions for TwilioAPI) 
-* SendGrid API Account -  API Keys and Secret are used to code logic in sending email (Instructions for SendGrid) 
+* Azure Storage Account for Azure Function App and a BLOB container to upload image files and for the Blob Storage Trigger 
+   - <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal" target="_blank">How to create an Azure Storage Account</a>
+   - <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-create?tabs=dotnet" target="_blank">How to create a Azure Blob Storage Container</a> 
+   - <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-storage-blob-triggered-function" target="_blank">How to create a Azure Blob Storage Trigger</a> 
+ 
+* Azure Service Bus Namespace with a queue name that matches the queue name of your app configuration 
+  - <a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues" target="_blank">How to create a queue in an Azure Service Bus Namespace</a>
+* Twilio API Account -  API Keys and Secret are used to code the logic to send SMS and make call from the function app  
+  - <a href="https://www.twilio.com/docs/sms/quickstart/csharp-dotnet-framework" target="_blank">Instructions for TwilioAPI</a> 
+* SendGrid API Account -  API Keys and Secret are used to code logic in sending email 
+  - <a href="https://docs.sendgrid.com/for-developers/sending-email/api-getting-started" target="_blank">Instructions for SendGrid</a> 
 
 
 ### WHEN DEBUGGING AND DEVELOPING LOCALLY
