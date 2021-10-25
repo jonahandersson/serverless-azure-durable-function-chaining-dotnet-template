@@ -4,7 +4,7 @@
     "AzureWebJobsStorage": "<PUT YOUR AZUREWEBJOBSSTORAGE CONNECTION STRING HERE>"
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",  
     "StorageConnectionString": "<YOUR AZURE STORAGE CONNECTION STRING HERE>"
-    "AzureServiceBusConnectionString": "<PUT YOUR AZURE SERVICE BUS CONNECTION STRING HEREE>,
+    "AzureServiceBusConnectionString": "<PUT YOUR AZURE SERVICE BUS CONNECTION STRING HERE>",
     "ServiceBusQueueName": "blobstoragenotifierqueue",
     "Twilio_SID": "<YOUR TWILIO API SID>",
     "Twilio_Secret": "<YOUR TWILIO API SECRET KEY>",
