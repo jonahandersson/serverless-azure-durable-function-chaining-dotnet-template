@@ -89,6 +89,6 @@ It logs what is happening with your orchestration. You may also check on
 * [**My article about Azure Durable Functions at DEV Community Blog**](https://dev.to/jonahandersson/azure-durable-functions-developing-serverless-stateful-workflow-4787)
 * [**Serverless .NET Development with Azure Durable Functions by Jonah Andersson at Philippine .NET User Group (PHINUG)**](https://www.youtube.com/watch?v=zByq3wB7fIQ&t=31s)
 * [**Azure Durable Functions Fundamentals at Azure User Group Sundsvall by Jonah Andersson**](https://www.youtube.com/watch?v=fDej9n-kzNM)
-* [Azure Storage Account] (https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
+* [Azure Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
 
   
