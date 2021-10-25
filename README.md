@@ -33,7 +33,31 @@ This template is prepared as starter template that allows you to develop Azure F
 * Programming Language C# .NET (You can code in other supported languages as well - see supported languages) 
 * Install latest .NET Core 3.1 (LTS) https://dotnet.microsoft.com/download 
 * Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v3%2Cwindows%2Ccsharp%2Cportal%2Cbash%2Ckeda)
+* DEVELOPMENT LOCALLY use file local.settings.json with your own configuration strings, API keys 
 
+#### local.settings.json
+
+```yaml
+{
+   "IsEncrypted": false,
+    "Values": {
+    "AzureWebJobsStorage": "<PUT YOUR AZUREWEBJOBSSTORAGE CONNECTION STRING HERE>"
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",  
+    "StorageConnectionString": "<YOUR AZURE STORAGE CONNECTION STRING HERE>"
+    "AzureServiceBusConnectionString": "<PUT YOUR AZURE SERVICE BUS CONNECTION STRING HERE>",
+    "ServiceBusQueueName": "blobstoragenotifierqueue",
+    "Twilio_SID": "<YOUR TWILIO API SID>",
+    "Twilio_Secret": "<YOUR TWILIO API SECRET KEY>",
+    "Admin_Email": "<EMAIL ADDRESS TO RECEIVE EMAIL FOR SENDGRID EMAILS",
+    "Admin_Name": "<YOUR NAME OR DUMMY NAME>",
+    "Admin_Mobile": "<YOUR TEST MOBILE WITH COUNTRY CODE TO RECEIVE TWILIO API SMS & CALL>",
+    "Twilio_Verified_Number": "<THE REGISTERED TWILIO API TRIAL ACCOUNT MOBILE NUMBER HERE>",   
+    "SendGridAPIKey": "<YOUR SENDGRID API KEY HERE>",
+    "CosmosDBEndPointUri": "<YOUR AZURE COSMOS DB ENDPOINT URI HERE",
+    "CosmosDBKey": "<YOUR AZURE COSMOS DB KEY HERE>"
+}
+
+```
 ### REQUIRED AZURE SERVICES AND API INTEGRATIONS
 
 * Azure Storage Account for Azure Function App and a BLOB container to upload image files and for the Blob Storage Trigger 
