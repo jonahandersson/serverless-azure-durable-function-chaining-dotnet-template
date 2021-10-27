@@ -33,6 +33,7 @@ Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twil
 * Programming Language C# .NET (You can code in other supported languages as well - see supported languages) 
 * Install latest .NET Core 3.1 (LTS) https://dotnet.microsoft.com/download 
 * Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v3%2Cwindows%2Ccsharp%2Cportal%2Cbash%2Ckeda)
+* Postman for HTTP Requests/Triggers
 * DEVELOPMENT LOCALLY use file local.settings.json with your own configuration strings, API keys 
 
 #### local.settings.json
