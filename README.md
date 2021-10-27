@@ -12,7 +12,7 @@ This template is prepared as starter template that allows you to develop Azure F
 #### OVERVIEW OF WORKFLOW 
 
 <img src="https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/AzDurableFunctionChaining.jpg" width="600">
- *Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twilio API, Sendgrid API and Azure BLOB Storage*
+Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twilio API, Sendgrid API and Azure BLOB Storage 
 
 ### EXPECTED RESULTS 
 
