@@ -7,6 +7,8 @@
 This is a starter template for Serverless course at work but available to public who wants to try it out.
 A hands-on lab created with Azure Durable Functions with [Function Chaining](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-sequence?tabs=csharp) application pattern. 
 
+<img src="https://docs.microsoft.com/en-us/azure/azure-functions/durable/media/durable-functions-concepts/function-chaining.png" width="600" alt="Function chaining - Azure Durable Functions">
+
 This template is prepared as starter template that allows you to develop Azure Functions (Durable Functions) serverless workflow with integration to other APIs such as Twilio API and Sendgrid API and Azure services - Azure Storage, ServiceBus etc. 
 
 #### OVERVIEW OF WORKFLOW 
@@ -87,6 +89,7 @@ It logs what is happening with your orchestration. You may also check on
 * [**Azure Durable Functions Documentation**](https://docs.microsoft.com/en-us/azure/azure-functions/durable?WT.mc_id=AZ-MVP-5004251)
 * [**Microsoft Learn**](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-create-first-csharp?pivots=code-editor-vscode?WT.mc_id=AZ-MVP-5004251)  
 * [**Azure Functions University on YouTube  by Marc Duiker**](https://www.youtube.com/channel/UCmoWqg6T-c8zEGm4sZdnwbA)
+* [**Azure Functions University Lessons on GitHub by Marc Duiker and Community](https://github.com/marcduiker/azure-functions-university)
 * [**My article about Azure Durable Functions at DEV Community Blog**](https://dev.to/jonahandersson/azure-durable-functions-developing-serverless-stateful-workflow-4787)
 * [**Serverless .NET Development with Azure Durable Functions by Jonah Andersson at Philippine .NET User Group (PHINUG)**](https://www.youtube.com/watch?v=zByq3wB7fIQ&t=31s)
 * [**Azure Durable Functions Fundamentals at Azure User Group Sundsvall by Jonah Andersson**](https://www.youtube.com/watch?v=fDej9n-kzNM)
