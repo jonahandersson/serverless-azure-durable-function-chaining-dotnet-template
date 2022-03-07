@@ -2,9 +2,9 @@
 ##### Starter Template for Azure Serverless Durable Functions
 *Author: <a href="https://jonahandersson.tech/" target="_blank">Jonah Andersson</a>*
 
-#### LAB DESCRIPTION:
+#### DESCRIPTION:
 
-This is a starter template for Serverless course at work but available to public who wants to try it out.
+This is a starter template for Serverless deveöpment with Azure Durable Functions available to those you wants to try it out.
 A hands-on lab created with Azure Durable Functions with [Function Chaining](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-sequence?tabs=csharp) application pattern. 
 
 <img src="https://docs.microsoft.com/en-us/azure/azure-functions/durable/media/durable-functions-concepts/function-chaining.png" width="600" alt="Function chaining - Azure Durable Functions">
