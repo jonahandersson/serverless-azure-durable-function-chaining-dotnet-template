@@ -1,4 +1,4 @@
-# Durable Serverless Functions in Azure (Lab Template)
+# Azure Durable Functions (Function Chaining Example) in C# .NET (Starter Template)
 ##### Starter Template for Azure Serverless Durable Functions
 *Author: <a href="https://jonahandersson.tech/" target="_blank">Jonah Andersson</a>*
 
