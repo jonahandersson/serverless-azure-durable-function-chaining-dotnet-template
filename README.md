@@ -33,12 +33,14 @@ Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twil
 * Latest version of [Visual Studio](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)
 * Azure Storage Explorer (https://azure.microsoft.com/en-us/features/storage-explorer/)
 * Programming Language C# .NET (You can code in other supported languages as well - see supported languages) 
-* Install latest .NET Core 3.1 (LTS) https://dotnet.microsoft.com/download 
+* Install latest .NET Core 3.1 (LTS) or latest supported like .NET 6 https://dotnet.microsoft.com/download 
 * Install [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v3%2Cwindows%2Ccsharp%2Cportal%2Cbash%2Ckeda)
+* If you are using .NET Core 3.1 it will not  be supported by the end of 2022 and you need to upgrade to functions version 4.0 
 * Postman for HTTP Requests/Triggers
 * DEVELOPMENT LOCALLY use file local.settings.json with your own configuration strings, API keys 
 
-#### local.settings.json
+#### local.settings.json (Local Development Only) 
+*RECOMMENDATION:* Use [Azure Key Vault](https://docs.microsoft.com/en-us/azure/app-service/app-service-key-vault-references?tabs=azure-cli?WT.mc_id=AZ-MVP-5004251) and Managed Identities to secure your function application for Azure Durable Functions 
 
 ```yaml
 {
@@ -83,6 +85,9 @@ It logs what is happening with your orchestration. You may also check on
 
 <img src="https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/ServerlessLab_RunningFunctions%20Locally.PNG" width="600">
 
+### TALKS -  Azure Durable Functions at NDC Oslo Developer Conference 2021 
+Click on the image below to watch the recording of my talk for this session at the NDC Olso Conferene 
+[![IMAGE ALT TEXT HERE](https://pbs.twimg.com/media/FMwNCHcXMAANGaj?format=jpg&name=medium)](https://www.youtube.com/watch?v=C199S4R7cy8)
 
 ####  RECOMMENDED LEARNING AND HANDS-ON RESOURCES 
  
