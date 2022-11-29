@@ -1,5 +1,5 @@
 # Azure Durable Functions (Function Chaining Example) in C# .NET (Starter Template)
-##### Starter Template for Azure Serverless Durable Functions
+##### Starter Template for Azure Serverless Durable Functions .NET Core 
 *Author: <a href="https://jonahandersson.tech/" target="_blank">Jonah Andersson</a>*
 
 #### DESCRIPTION:
@@ -63,18 +63,19 @@ Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twil
 }
 
 ```
+
 ### REQUIRED AZURE SERVICES AND API INTEGRATIONS
 
-* Azure Storage Account for Azure Function App and a BLOB container to upload image files and for the Blob Storage Trigger 
+- Azure Storage Account for Azure Function App and a BLOB container to upload image files and for the Blob Storage Trigger 
    - <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal" target="_blank">How to create an Azure Storage Account</a>
    - <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-container-create?tabs=dotnet" target="_blank">How to create a Azure Blob Storage Container</a> 
    - <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-storage-blob-triggered-function" target="_blank">How to create a Azure Blob Storage Trigger</a> 
  
-* Azure Service Bus Namespace with a queue name that matches the queue name of your app configuration 
+- Azure Service Bus Namespace with a queue name that matches the queue name of your app configuration 
   - <a href="https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues" target="_blank">How to create a queue in an Azure Service Bus Namespace</a>
-* Twilio API Account -  API Keys and Secret are used to code the logic to send SMS and make call from the function app  
+- Twilio API Account -  API Keys and Secret are used to code the logic to send SMS and make call from the function app  
   - <a href="https://www.twilio.com/docs/sms/quickstart/csharp-dotnet-framework" target="_blank">Instructions for TwilioAPI</a> 
-* SendGrid API Account -  API Keys and Secret are used to code logic in sending email 
+-  SendGrid API Account -  API Keys and Secret are used to code logic in sending email 
   - <a href="https://docs.sendgrid.com/for-developers/sending-email/api-getting-started" target="_blank">Instructions for SendGrid</a> 
 
 
@@ -83,22 +84,24 @@ Azure Durable Functions - Function Chaining Example with Azure Service Bus, Twil
 When developing Azure Functions locally using this project. You should see similar like this when it is finished.
 It logs what is happening with your orchestration. You may also check on 
 
-<img src="https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/ServerlessLab_RunningFunctions%20Locally.PNG" width="600">
+<img src="https://durablestoragefunctionss.blob.core.windows.net/photoscontainer/ServerlessLab_RunningFunctions%20Locally.PNG" width="700">
 
-### TALKS -  Azure Durable Functions at NDC Oslo Developer Conference 2021 
-Click on the image below to watch the recording of my talk for this session at the NDC Olso Conferene 
-[![IMAGE ALT TEXT HERE](https://pbs.twimg.com/media/FMwNCHcXMAANGaj?format=jpg&name=medium)](https://www.youtube.com/watch?v=C199S4R7cy8)
+### TALKS -  Azure Durable Functions at NDC Oslo Developer Conference 2021 <br>
+Click on the image below to watch the recording of my talk for this session at the NDC Olso Conferene <br>
+<img src="https://pbs.twimg.com/media/FMwNCHcXMAANGaj?format=jpg&name=medium" width="500"> <br>
+
+Watch session on YouTube https://www.youtube.com/watch?v=C199S4R7cy8 
 
 ####  RECOMMENDED LEARNING AND HANDS-ON RESOURCES 
  
-* [**Azure Durable Functions Documentation**](https://docs.microsoft.com/en-us/azure/azure-functions/durable?WT.mc_id=AZ-MVP-5004251)
-* [**Microsoft Learn**](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-create-first-csharp?pivots=code-editor-vscode?WT.mc_id=AZ-MVP-5004251)  
-* [**Azure Functions University on YouTube  by Marc Duiker**](https://www.youtube.com/channel/UCmoWqg6T-c8zEGm4sZdnwbA)
-* [**Azure Functions University Lessons on GitHub by Marc Duiker and Community**](https://github.com/marcduiker/azure-functions-university)
-* [**My article about Azure Durable Functions at DEV Community Blog**](https://dev.to/jonahandersson/azure-durable-functions-developing-serverless-stateful-workflow-4787)
-* [**Serverless .NET Development with Azure Durable Functions by Jonah Andersson at Philippine .NET User Group (PHINUG)**](https://www.youtube.com/watch?v=zByq3wB7fIQ&t=31s)
-* [**Azure Durable Functions Fundamentals at Azure User Group Sundsvall by Jonah Andersson**](https://www.youtube.com/watch?v=fDej9n-kzNM)
-* [**Azure Serverless Community Library**](https://serverlesslibrary.net/)
-* [**Azure Storage Account**](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
+- [**Azure Durable Functions Documentation**](https://docs.microsoft.com/en-us/azure/azure-functions/durable?WT.mc_id=AZ-MVP-5004251)
+- [**Microsoft Learn**](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-create-first-csharp?pivots=code-editor-vscode?WT.mc_id=AZ-MVP-5004251)  
+- [**Azure Functions University on YouTube  by Marc Duiker**](https://www.youtube.com/channel/UCmoWqg6T-c8zEGm4sZdnwbA)
+- [**Azure Functions University Lessons on GitHub by Marc Duiker and Community**](https://github.com/marcduiker/azure-functions-university)
+- [**My article about Azure Durable Functions at DEV Community Blog**](https://dev.to/jonahandersson/azure-durable-functions-developing-serverless-stateful-workflow-4787)
+- [**Serverless .NET Development with Azure Durable Functions by Jonah Andersson at Philippine .NET User Group (PHINUG)**](https://www.youtube.com/watch?v=zByq3wB7fIQ&t=31s)
+-  [**Azure Durable Functions Fundamentals at Azure User Group Sundsvall by Jonah Andersson**](https://www.youtube.com/watch?v=fDej9n-kzNM)
+- [**Azure Serverless Community Library**](https://serverlesslibrary.net/)
+- [**Azure Storage Account**](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview)
 
   
